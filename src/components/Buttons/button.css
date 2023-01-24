@@ -1,0 +1,12 @@
+.btn-custom{
+    background-color: palevioletred;
+    border-radius: 200px;
+    color: #fff;
+    font-weight: 400;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-custom:hover{
+    background-color: #fff;
+    color: palevioletred;
+}

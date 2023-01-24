@@ -1,0 +1,31 @@
+.search-bar{
+    border: 1px solid;
+    border-radius: 200px;
+    background-color: rgb(58, 53, 53);
+}
+
+.search-bar input{
+    border: 0;
+    background-color: transparent;
+    padding: 5px 0;
+}
+
+.search-bar input::placeholder{
+    font-size: 12px;
+    padding-left: 8px;
+}
+
+.search-bar input:focus{
+    outline: 0;
+}
+
+.search-bar i{
+margin-left: 20px;
+color: rgb(151, 149, 149);
+font-size: 14px;
+
+}
+
+.bg-nav{
+    background-color: rgb(32, 32, 32);
+}
