@@ -3,7 +3,7 @@ import Buttons from '../../components/Buttons/Buttons'
 import './home.css'
 import img1 from "../../assets/images/card-bg.jpg"
 import { faStar, faDownload } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Cards from '../../containers/cards/Cards'
 
 const Home = () => {
   return (
@@ -21,110 +21,14 @@ const Home = () => {
             <div className="  col-12">
               <h1><span>Most Popular</span> Right Now</h1>
             </div>
-            <div className="col-12 col-sm-6 col-lg-3">
-              <div className="game-cards">
-                <img src={img1} alt="" />
-                <div className="games-card-heading d-flex mt-2">
-                  <h6 className='text-white'>Fortnite</h6>
-                  <h6 className='ms-auto text-white'><i className='m3-1'><FontAwesomeIcon icon={faStar} /></i>4.8</h6>
-                </div>
-                <div className="games-card-heading d-flex mt-2">
-                  <p className='text-white'>sandbox</p>
-                  <h6 className='ms-auto text-white'><i className='me-1'><FontAwesomeIcon icon={faDownload} /></i>4.8M</h6>
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-sm-6 col-lg-3">
-              <div className="game-cards">
-                <img src={img1} alt="" />
-                <div className="games-card-heading d-flex mt-2">
-                  <h6 className='text-white'>Fortnite</h6>
-                  <h6 className='ms-auto text-white'><i className='m3-1'><FontAwesomeIcon icon={faStar} /></i>4.8</h6>
-                </div>
-                <div className="games-card-heading d-flex mt-2">
-                  <p className='text-white'>sandbox</p>
-                  <h6 className='ms-auto text-white'><i className='me-1'><FontAwesomeIcon icon={faDownload} /></i>4.8M</h6>
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-sm-6 col-lg-3">
-              <div className="game-cards">
-                <img src={img1} alt="" />
-                <div className="games-card-heading d-flex mt-2">
-                  <h6 className='text-white'>Fortnite</h6>
-                  <h6 className='ms-auto text-white'><i className='m3-1'><FontAwesomeIcon icon={faStar} /></i>4.8</h6>
-                </div>
-                <div className="games-card-heading d-flex mt-2">
-                  <p className='text-white'>sandbox</p>
-                  <h6 className='ms-auto text-white'><i className='me-1'><FontAwesomeIcon icon={faDownload} /></i>4.8M</h6>
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-sm-6 col-lg-3">
-              <div className="game-cards">
-                <img src={img1} alt="" />
-                <div className="games-card-heading d-flex mt-2">
-                  <h6 className='text-white'>Fortnite</h6>
-                  <h6 className='ms-auto text-white'><i className='m3-1'><FontAwesomeIcon icon={faStar} /></i>4.8</h6>
-                </div>
-                <div className="games-card-heading d-flex mt-2">
-                  <p className='text-white'>sandbox</p>
-                  <h6 className='ms-auto text-white'><i className='me-1'><FontAwesomeIcon icon={faDownload} /></i>4.8M</h6>
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-sm-6 col-lg-3">
-              <div className="game-cards">
-                <img src={img1} alt="" />
-                <div className="games-card-heading d-flex mt-2">
-                  <h6 className='text-white'>Fortnite</h6>
-                  <h6 className='ms-auto text-white'><i className='m3-1'><FontAwesomeIcon icon={faStar} /></i>4.8</h6>
-                </div>
-                <div className="games-card-heading d-flex mt-2">
-                  <p className='text-white'>sandbox</p>
-                  <h6 className='ms-auto text-white'><i className='me-1'><FontAwesomeIcon icon={faDownload} /></i>4.8M</h6>
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-sm-6 col-lg-3">
-              <div className="game-cards">
-                <img src={img1} alt="" />
-                <div className="games-card-heading d-flex mt-2">
-                  <h6 className='text-white'>Fortnite</h6>
-                  <h6 className='ms-auto text-white'><i className='m3-1'><FontAwesomeIcon icon={faStar} /></i>4.8</h6>
-                </div>
-                <div className="games-card-heading d-flex mt-2">
-                  <p className='text-white'>sandbox</p>
-                  <h6 className='ms-auto text-white'><i className='me-1'><FontAwesomeIcon icon={faDownload} /></i>4.8M</h6>
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-sm-6 col-lg-3">
-              <div className="game-cards">
-                <img src={img1} alt="" />
-                <div className="games-card-heading d-flex mt-2">
-                  <h6 className='text-white'>Fortnite</h6>
-                  <h6 className='ms-auto text-white'><i className='m3-1'><FontAwesomeIcon icon={faStar} /></i>4.8</h6>
-                </div>
-                <div className="games-card-heading d-flex mt-2">
-                  <p className='text-white'>sandbox</p>
-                  <h6 className='ms-auto text-white'><i className='me-1'><FontAwesomeIcon icon={faDownload} /></i>4.8M</h6>
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-sm-6 col-lg-3">
-              <div className="game-cards">
-                <img src={img1} alt="" />
-                <div className="games-card-heading d-flex mt-2">
-                  <h6 className='text-white'>Fortnite</h6>
-                  <h6 className='ms-auto text-white'><i className='m3-1'><FontAwesomeIcon icon={faStar} /></i>4.8</h6>
-                </div>
-                <div className="games-card-heading d-flex mt-2">
-                  <p className='text-white'>sandbox</p>
-                  <h6 className='ms-auto text-white'><i className='me-1'><FontAwesomeIcon icon={faDownload} /></i>4.8M</h6>
-                </div>
-              </div>
-            </div>
+            <Cards img={img1} FontAwesomeIcon_one={faStar}  FontAwesomeIcon_two={faDownload} rating="4.8"/>
+            <Cards img={img1} FontAwesomeIcon_one={faStar}  FontAwesomeIcon_two={faDownload} rating="3.8"/>
+            <Cards img={img1} FontAwesomeIcon_one={faStar}  FontAwesomeIcon_two={faDownload} rating="2.9"/>
+            <Cards img={img1} FontAwesomeIcon_one={faStar}  FontAwesomeIcon_two={faDownload} rating="1.2"/>
+            <Cards img={img1} FontAwesomeIcon_one={faStar}  FontAwesomeIcon_two={faDownload} rating="4.1"/>
+            <Cards img={img1} FontAwesomeIcon_one={faStar}  FontAwesomeIcon_two={faDownload} rating="1.0"/>
+            <Cards img={img1} FontAwesomeIcon_one={faStar}  FontAwesomeIcon_two={faDownload} rating="0.5"/>
+            <Cards img={img1} FontAwesomeIcon_one={faStar}  FontAwesomeIcon_two={faDownload} rating="4.1"/>
           </div>
         </div>
       </div>
